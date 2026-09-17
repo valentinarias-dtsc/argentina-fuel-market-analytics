@@ -1,0 +1,37 @@
+# Archivos de datos
+*.csv
+*.tsv
+*.tab
+*.xlsx
+*.xls
+*.ods
+*.parquet
+*.arrow
+*.feather
+*.avro
+*.orc
+*.jsonl
+*.ndjson
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.pkl
+*.pickle
+*.rds
+*.RData
+*.rdata
+*.dta
+*.sav
+*.sas7bdat
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.csv.gz
+*.tsv.gz
+*.jsonl.gz
+
+# Datos originales: conservar solamente el marcador de directorio
+/data/raw/*
+!/data/raw/.gitkeep
