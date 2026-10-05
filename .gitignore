@@ -1,4 +1,4 @@
-# Archivos de datos
+# Data formats
 *.csv
 *.tsv
 *.tab
@@ -32,6 +32,9 @@
 *.tsv.gz
 *.jsonl.gz
 
-# Datos originales: conservar solamente el marcador de directorio
+# Original raw data
 /data/raw/*
 !/data/raw/.gitkeep
+
+# Private archives
+private/*
